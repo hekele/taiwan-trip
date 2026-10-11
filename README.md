@@ -8,6 +8,7 @@ Weiterentwicklung der bestehenden statischen Anwendung mit **22 Übernachtungen 
 - `data.js` und `stops/*.js`: acht Stopps, 75 Sehenswürdigkeiten und 49 Tagesausflugskandidaten ohne konkrete Reisezeitangaben; grobe Klima-, Reisezeit-, Attraktivitäts- und Verkehrsangaben.
 - `app.js`: Leaflet/OpenStreetMap mit Ortsmarkern, thematischen Filtern, Dossiers, Google-Maps-Fotolinks, Fahrrad- und Kite-Hinweisen.
 - `gallery.js`: Pro Ziel eine direkt eingebundene Galerie mit bis zu vier automatischen Wikimedia-Commons-Suchergebnissen. Erst beim Scrollen geladen; Bilddateiseiten verlinken Urheber und Lizenz. Keine Garantie, dass jedes Suchbild das Ziel zeigt.
+- `extras.js` und `extras-ui.js`: sieben optionale weitere Reiseorte mit empfohlenen Nächten, Klimaorientierung, ÖPNV-Hinweisen, Fotogalerien und braunen Kartenmarkern. Die Originalroute ist unverändert; beispielhafte Erweiterung auf 28 Nächte.
 - `robots.txt`: **unverändert**, insbesondere AI-Crawler-Sperren.
 
 ## Nutzung
