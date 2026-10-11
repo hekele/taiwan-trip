@@ -1,14 +1,14 @@
 # Taiwan-Reiseatlas
 
-Weiterentwicklung der bestehenden statischen Anwendung mit **22 Übernachtungen in der unveränderten Uhrzeiger-Rundreise**. Keine zusätzliche Veröffentlichung aktiviert.
+Weiterentwicklung der bestehenden statischen Anwendung mit **28 Übernachtungen auf einer erweiterten Uhrzeiger-Rundreise**. Keine zusätzliche Veröffentlichung aktiviert.
 
 ## Dateien
 - `index.html`: Einstieg, Robots-Metadaten unverändert streng (`noindex, nofollow, noarchive, nosnippet, noimageindex` für robots, googlebot, bingbot).
 - `style.css`: Responsives Layout.
-- `data.js` und `stops/*.js`: acht Stopps, 75 Sehenswürdigkeiten und 49 Tagesausflugskandidaten ohne konkrete Reisezeitangaben; grobe Klima-, Reisezeit-, Attraktivitäts- und Verkehrsangaben.
+- `data.js` und `stops/*.js`: acht ursprüngliche Stopps, 75 Sehenswürdigkeiten und 49 Tagesausflugskandidaten ohne konkrete Reisezeitangaben; grobe Klima-, Reisezeit-, Attraktivitäts- und Verkehrsangaben.
 - `app.js`: Leaflet/OpenStreetMap mit Ortsmarkern, thematischen Filtern, Dossiers, Google-Maps-Fotolinks, Fahrrad- und Kite-Hinweisen.
 - `gallery.js`: Pro Ziel eine direkt eingebundene Galerie mit bis zu vier automatischen Wikimedia-Commons-Suchergebnissen. Erst beim Scrollen geladen; Bilddateiseiten verlinken Urheber und Lizenz. Keine Garantie, dass jedes Suchbild das Ziel zeigt.
-- `extras.js` und `extras-ui.js`: sieben optionale weitere Reiseorte mit empfohlenen Nächten, Klimaorientierung, ÖPNV-Hinweisen, Fotogalerien und braunen Kartenmarkern. Die Originalroute ist unverändert; beispielhafte Erweiterung auf 28 Nächte.
+- `extras.js` und `route.js`: vier zusätzliche Übernachtungsorte (Chishang, Dulan, Xiaoliuqiu, Chiayi) in der Hauptstrecke sowie weitere Tagesausflugskandidaten. Insgesamt 12 Stopps und 28 Nächte. Die acht bisherigen Orte behalten ihre Reihenfolge und Nächte.
 - `robots.txt`: **unverändert**, insbesondere AI-Crawler-Sperren.
 
 ## Nutzung
@@ -21,7 +21,7 @@ Weiterentwicklung der bestehenden statischen Anwendung mit **22 Übernachtungen 
 - Taroko: massive Erdbebenschäden seit April 2024; nur teilweise zugänglich, Hauptschlucht nicht als sicher planbaren Ausflug voraussetzen. Nationalparkmeldungen lesen.
 - Kitesurfen: aufgeführte Küstenabschnitte sind **Prüfgebiete, keine gesicherten Start-/Landeplätze**. Gerade im Wintermonsun böige Windverhältnisse, Brandung, Hindernisse, Schutzgebiete und Rettungsmöglichkeiten lokal prüfen.
 - Fahrradstrecken als grobe Varianten, Verleih und TRA-Radmitnahme individuell prüfen.
-- Geplante Reiseroute und Aufenthaltsnächte nicht geändert.
+- Die acht bisherigen Stopps behalten ihre Nächte; vier neue Stopps ergänzen die Rundreise (+6 Nächte). Keine konkreten Kalenderdaten gespeichert.
 
 ## Wesentliche amtliche Quellen und Live-Abfragen
 - Taiwan Tourism Administration: https://eng.taiwan.net.tw/
